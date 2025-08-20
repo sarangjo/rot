@@ -1,0 +1,17 @@
+[package]
+name = "rot"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+arboard = "3.6.0"
+
+[[bin]]
+name = "rot"
+path = "rot.rs"
+
+[[bin]]
+name = "rotclip"
+path = "rotclip.rs"
