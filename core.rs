@@ -1,5 +1,9 @@
-pub fn rot(s: &str) -> String {
-    let t = s.to_uppercase();
+pub fn rot() -> String {
+    if std::env::args().count() <= 1 {
+        panic!("Need arg")
+    }
+    let args: Vec<String> = std::env::args().collect();
+    let t = args[1..].join("").to_uppercase();
     let b = t.as_bytes();
 
     let mut output = String::new();
