@@ -10,3 +10,15 @@ $ cargo install --path .
 ```
 
 Add `$HOME/.cargo/bin` to your system PATH.
+
+## Example
+
+```
+$ rot hello
+H E L L O
+E L L O H
+L L O H E
+L O H E L
+O H E L L
+$ rotclip goodbye       # copies to clipboard 
+```
