@@ -22,3 +22,7 @@ L O H E L
 O H E L L
 $ rotclip goodbye       # copies to clipboard 
 ```
+
+## See Also
+
+[`bash` implementation](https://github.com/sarangjo/dotfiles/blob/main/bash/.bash_aliases#L70)
